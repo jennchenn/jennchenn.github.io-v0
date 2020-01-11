@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>jennifer chen</title>
+</head>
+
+<body class="home">
+    <div class="container mw-100 pl-0 pr-0">
+        <nav class="mw-100 navbar sticky-top">
+            <div class="col w-100">
+                <div class="dropdown">
+                    <button class="dropbtn" onmouseover="menuButton(this)" onmouseout="menuButton(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
+                    <div class="dropdown-content text-right">
+                        <a href="#toppage">about me</a>
+                        <a href="#experience">experience</a>
+                        <a href="#projects">projects</a>
+                        <a href="static/JenniferChenResume2A.pdf" download="Jennifer Chen Resume" target="_blank">resume</a>
+                        <a href="#contact">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row w-100 header" id="toppage">
+            <div class="col text-center">
+                    <h1>👋 hello world, my name is <span class="highlight-text">jennifer</span></h1> 
+                <div class="title">
+                    <h2></h2> 
+                </div>  
+            </div>
+        </div>
+        <div class="container contentcontainer">
+            <div class="row w-100 pt-5 content">
+                <div class="col-sm-8 text">
+                    <div class="row pt-0 pb-3 pl-2 pr-2 my-auto bio" id="about-me">
+                        <p>
+                            Nice to e-meet you! I'm a second year student studying <a href="https://uwaterloo.ca/systems-design-engineering/" target="_blank">Systems Design Engineering</a> at 
+                            the University of Waterloo. Fascinated by the power of technology, I am on a constant
+                            journey of learning and trying new things. 
+                        </p>
+                        <p></p>
+                        <p>
+                            When I'm not in class, I can be found doing taekwondo, searching up succulent care tips or planning my next trip to Asia!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 pic">
+                    <img class="w-100 h-100" src="static/jenniferchen.jpg" alt="picture!">
+                </div>
+            </div>
+        </div>    
+        <div class="container contentcontainer" id="experience">
+            <div class="row w-100 pt-5 content">
+                <div class="col h-100 text">
+                    <h3 class="highlight-text">experience</h3>
+                    <div class="spacer"></div>
+                    <div class="row experience">
+                        <div class="col-sm-4 h-100">
+                            <div class="card flex-fill">
+                                <img class="card-img-top" src="static/RatioGif.gif" alt="Ratio.City">
+                                <div class="card-body">
+                                  <h4 class="card-title">Ratio.City</h4>
+                                  <h5 class="exp-position">Software Developer Intern</h5>
+                                  <p class="card-subtitle">Sept 2019 - Dec 2019</p>
+                                  <p class="card-text">
+                                      Visualized the company's sales success in a dashboard; created a fully flushed prototype to allow company expansion to any geographic region.
+                                  </p>
+                                  <a href="https://www.ratio.city/" target="_blank" class="exp-links">Building smarter cities</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 h-100">
+                            <div class="card flex-fill">
+                                <img class="card-img-top" src="static/Waterloop.png" alt="Waterloop">
+                                <div class="card-body">
+                                    <h4 class="card-title">Waterloop</h4>
+                                    <h5 class="exp-position">Technical Project Manager</h5>
+                                    <p class="card-subtitle">Sept 2018 - present</p>
+                                  <p class="card-text">Ensuring the technical (mechanical, electrical, software) team remains on schedule to compete at SpaceX's hyperloop competition. </p>
+                                  <a href="https://teamwaterloop.ca/" target="_blank" class="exp-links">The future of transportation</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 h-100">
+                            <div class="card flex-fill">
+                                <img class="card-img-top" src="static/Clearbridge.png" alt="Clearbridge Mobile">
+                                <div class="card-body">
+                                    <h4 class="card-title">Clearbridge Mobile</h4>
+                                    <h5 class="exp-position">QA Analyst Intern</h5>
+                                    <p class="card-subtitle">Jan 2019 - April 2019</p>
+                                  <p class="card-text">I automated the testing team's process to allow efficient and more accurate testing. Participated in app reviews and client demos.</p>
+                                  <a href="https://www.clearbridgemobile.com/" target="_blank" class="exp-links">Reinventing mobile app experience</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>                
+        <div class="spacer"></div>
+        <div class="container contentcontainer" id="projects">
+            <div class="row w-100 pt-5 content">
+                <div class="col h-100 text">
+                    <h3 class="highlight-text">projects</h3>
+                    <div class="spacer"></div>
+                    <div class="row projects">
+                        <div class="col-sm-4 h-100">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="static/travelio.png" alt="travel.io">
+                                <div class="card-body">
+                                    <h4 class="card-title">travel.io</h4>
+                                    <p class="card-subtitle">Nov 2019 • Hack Western</p>
+                                    <p class="card-text">
+                                        A web app that allows for real-time collaborative vacation planning with friends.
+                                    </p>
+                                    <a href="https://devpost.com/softwaretravel-io" target="_blank" class="exp-links">Plan your next trip</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 h-100">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="static/farmciti.png" alt="Farm Citi">
+                                <div class="card-body">
+                                    <h4 class="card-title">Farm Citi</h4>
+                                    <p class="card-subtitle">March 2019 • Hack Lassonde</p>
+                                    <p class="card-text">An Android mobile app that encourages sustainable food and water consumption through gamification.</p>
+                                    <a href="https://devpost.com/software/test-3g8sir" target="_blank" class="exp-links">Help save your farm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 h-100">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="static/smartburglar.png" alt="Clearbridge Mobile">
+                                <div class="card-body">
+                                    <h4 class="card-title">Smart Burglar Alarm</h4>
+                                    <p class="card-subtitle">Feb 2019 • MakeUofT</p>
+                                    <p class="card-text">Hardware hack that warns users of approaching burglars with sounds and LEDs.</p>
+                                    <a href="https://devpost.com/software/asdf-za2xi6" target="_blank" class="exp-links">Protect your home</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </div>
+    <footer class="footer" id="contact">
+        <div class="row w-100">
+            <div class="col-6">
+                <p></p>
+                <p class="pl-2 footer-text">
+                    Thanks for stopping by!
+                </p>
+            </div>
+        </div>
+        <div class="row w-100">
+            <div class="col-6">
+                <p class="pl-2 footer-text">
+                    Made with ❤️
+                </p>
+            </div>
+            <div class="col-6 text-right">
+                <a href="https://www.linkedin.com/in/jenniferqtchen/" target="_blank" class="fa fa-linkedin pl-2"></a>
+                <a href="https://github.com/jennchenn" target="_blank" class="fa fa-github pl-2"></a>
+                <a href="mailto:jenn.chenn93@gmail.com" target="_blank" class="fa fa-envelope pl-2"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
