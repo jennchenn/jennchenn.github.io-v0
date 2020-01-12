@@ -11,6 +11,14 @@ html, body {
     position: relative;
 } 
 
+.resume-button .btn{
+    background-color: lavender;
+    color: black;
+}
+.btn:hover{
+    background-color: #83789c;
+}
+
 body {
     font-family: "Roboto";
 }
@@ -91,19 +99,6 @@ body {
     font-style: italic;
 }
 
-.carousel-inner img{
-    margin: auto;
-}
-
-.carousel-caption h5, p{
-    color: black;
-}
-
-.carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-}
 
 .col-sm-8{
     margin-top: 50px;
@@ -122,3 +117,4 @@ body {
 .footer-text{
     color: white;
 }
+
