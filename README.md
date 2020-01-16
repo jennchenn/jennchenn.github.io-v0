@@ -1,2 +1,2 @@
 # personal-site
-Personal website can be found at jenniferchen.tech
+Personal website can be found at http://jenniferchen.tech/
